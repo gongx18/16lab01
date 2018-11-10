@@ -13,7 +13,7 @@ int main(){
 		for(int i = 0; i< r; i ++){
 			int j = 0; 
 			while(j != c){
-				cout << "X";
+				cout << "X.";
 				j++;  
 			} 
 			cout << "\n";
