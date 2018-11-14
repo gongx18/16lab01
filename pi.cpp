@@ -22,7 +22,7 @@ int main(){
 		cout.setf(ios::showpoint); // Always display the decimal point.
 		cout.precision(3);         // Set the number of digits to display after the decimal point to 3
 
-		cout << "The approximate value of pi using "<< input + 1 <<" terms is:" << sum << endl; 
+		cout << "The approximate value of pi using "<< input + 1 <<" terms is: " << sum << endl; 
 		cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):" << endl; 
 		cin >> input; 
 	}
